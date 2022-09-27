@@ -12,6 +12,7 @@
 }
 
 .lista__link a{
+    font-size: 15px;
     text-decoration: none;
     color: var(--branco-principal);
     margin-left: 1em;
@@ -28,6 +29,8 @@
 
 .lista__link a:hover {
     color: var(--botao-azul);
+    font-size: 18px;
+    transition: 2s;
 }
 
 .lista__link a:active {
