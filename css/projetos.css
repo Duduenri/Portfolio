@@ -1,11 +1,11 @@
-.destaques {
+.projetos {
     background-color: var(--azul-claro);
 
     padding-top: 2.5rem;
     padding-bottom: 2rem;
 }
 
-.destaques__titulo {
+.projetos__titulo {
     color: var(--cinza-escuro);
     font-weight: 700;
     font-size: 1.5rem;
@@ -15,7 +15,7 @@
     margin-bottom: 2rem;
 }
 
-.destaques__projeto {
+.projetos__nome {
     color: var(--cinza-escuro);
     font-weight: 700;
     font-size: 1.3rem;
@@ -25,7 +25,7 @@
     margin-bottom: 1rem;
 }
 
-.destaques__painel {
+.projetos__painel {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,7 +33,7 @@
     margin-bottom: 2rem;
 }
 
-.destaques__painel-imagem {
+.projetos__painel-imagem {
     width: 100vw;
     max-width: 600px;
 
@@ -42,13 +42,13 @@
     margin-bottom: .5rem;
 }
 
-.destaques__painel-texto {
+.projetos__painel-texto {
     font-weight: 700;
     font-size: 1.2rem;
     line-height: normal;
 }
 
-.destaques__botao {
+.projetos__botao {
     color: var(--vermelho-forte);
 
     border-color: var(--vermelho-forte);
