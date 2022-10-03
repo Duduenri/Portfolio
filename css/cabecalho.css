@@ -39,6 +39,13 @@
     margin-left: .7rem;
 }
 
+.cabecalho__link:hover {
+    font-size: 1.3rem;
+    font-weight: 600;
+    transition: 2.5s;
+
+}
+
 @media screen and (min-width: 1024px) {
     .cabecalho {
         flex-direction: row;

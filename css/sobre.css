@@ -6,7 +6,7 @@
 .sobre__titulo {
     color: var(--cinza-escuro);
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-family: var(--montserrat);
     text-transform: uppercase;
     text-align: center;
@@ -15,6 +15,8 @@
 }
 
 .sobre__texto {
+    font-size: 1.2rem;
+
     line-height: normal;
 
     margin-bottom: 1rem;
@@ -34,9 +36,15 @@
 }
 
 .sobre__imagem {
+    border-radius: 12px;
     height: 400px;
     width: 300px;
     display: none;
+}
+
+.sobre__imagem:hover {
+    border-radius: 20px;
+    transition: 2s;
 }
 
 @media screen and (min-width: 1024px) {

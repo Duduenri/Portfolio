@@ -29,6 +29,7 @@ body {
 }
 
 .botao {
+    font-size: 14px;
     text-align: center;
 
     display: block;
@@ -42,6 +43,12 @@ body {
 
     border: 1px solid var(--branco);
     border-radius: 5px;
+}
+
+.botao:hover {
+    border-radius: 15px;
+    font-size: 16px;
+    transition: 2s;
 }
 
 @media screen and (min-width: 1024px) {
