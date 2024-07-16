@@ -1,51 +1,47 @@
 .Habilidade {
     padding-top: 3.5rem;
     padding-bottom: 3.5rem;
+    background-color: var(--cinza-claro); /* Adicionando cor de fundo para melhor contraste */
 }
 
 .Habilidade__lista {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around; /* Ajustando o espaçamento entre os itens */
+    list-style-type: none; /* Removendo os marcadores de lista */
+    padding: 0;
 }
 
 .Habilidade__item {
-    max-width: 350px;
-
-    box-sizing: border-box;
-
-    background-repeat: no-repeat;
-    background-position: top 1.25rem left 2.5rem;
-
-    padding: 2rem 0 2rem 5rem;
+    width: 300px; /* Reduzindo um pouco a largura dos itens para melhor visualização */
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border-radius: 8px;
+    background-color: var(--branco); /* Fundo branco para destacar cada habilidade */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para efeito de elevação */
 }
 
 .Habilidade__img {
-    width: 29px;
-    height: 29px;
-    align-items: center;
+    width: 50px; /* Ajustando o tamanho dos ícones */
+    height: 50px;
+    margin-bottom: 1rem;
 }
 
-
 .item__titulo {
-    color: var(--cinza-escuro);
+    color: var(--azul-escuro);
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
-
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .item__texto {
-    line-height: normal;
+    line-height: 1.6;
+    color: var(--cinza-escuro);
 }
 
-@media screen and (min-width: 1024px) {
-    .Habilidade {
-        background-color: var(--cinza-claro);
-    }
-
-    .Habilidade__lista {
-        justify-content: space-around;
+@media screen and (min-width: 768px) {
+    .Habilidade__item {
+        width: 400px; /* Ajuste para telas maiores */
     }
 }
